@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Friend Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Survery Questions</h1>
+      </div>
+      <div class="container">
+        <h4>Name:</h4>
+        <input type="text" class="form-control checktext" id="name" />
+        <h4>Image Link:</h4>
+        <input type="text" class="form-control checktext" id="img" />
+      </div>
+      <div class="container">
+        <h3>Question 1</h3>
+        <h4>Do you feel obligated to help other people out?</h4>
+        <select class="custom-select custom-select-sm check" id="1">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 2</h3>
+        <h4>Is it important to maintain cleanliness?</h4>
+        <select class="custom-select custom-select-sm check" id="2">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 3</h3>
+        <h4>Are philosophical conversations important to you?</h4>
+        <select class="custom-select custom-select-sm check" id="3">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 4</h3>
+        <h4>Is keeping up with politics important?</h4>
+        <select class="custom-select custom-select-sm check" id="4">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 5</h3>
+        <h4>Are astrological signs significant in any relationship?</h4>
+        <select class="custom-select custom-select-sm check" id="5">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 6</h3>
+        <h4>Do you feel that having pets is beneficial</h4>
+        <select class="custom-select custom-select-sm check" id="6">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 7</h3>
+        <h4>
+          Do you feel it is normal to consume drugs/alcohol recreationally
+        </h4>
+        <select class="custom-select custom-select-sm check" id="7">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 8</h3>
+        <h4>Do you agree with the existence of climate change?</h4>
+        <select class="custom-select custom-select-sm check" id="8">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 9</h3>
+        <h4>Do you believe in dinosaurs?</h4>
+        <select class="custom-select custom-select-sm check" id="9">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <div class="container">
+        <h3>Question 10</h3>
+        <h4>
+          Do you believe most disagreements can be solved through communication
+        </h4>
+        <select class="custom-select custom-select-sm check" id="10">
+          <option selected>Select an Option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <button
+        type="submit"
+        class="btn btn-primary btn-lg btn-block"
+        id="submit"
+      >
+        <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+      </button>
+      <br />
+      <a href="/api/friends">Friends List API</a>
+    </div>
+
+    <div class="modal" id="results" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">You've Found a Match!</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3><div id="result-name"></div></h3>
+            <img id="result-img" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $("#submit").on("click", function(event) {
+        event.preventDefault();
+        var check = 1;
+
+        $(".check").each(function() {
+          if ($(this).val() === "Select an Option") {
+            check = 0;
+          }
+        });
+        $(".checktext").each(function() {
+          if ($(this).val() === "Select an Option") {
+            check = 0;
+          }
+        });
+
+        if(check === 1){
+          var userData = {
+          name: $("#name").val(),
+          photo: $("#img").val(),
+          scores: [
+            $("#1").val(),
+            $("#2").val(),
+            $("#3").val(),
+            $("#4").val(),
+            $("#5").val(),
+            $("#6").val(),
+            $("#7").val(),
+            $("#8").val(),
+            $("#9").val(),
+            $("#10").val()
+          ]
+        };
+            $("#1").val("")
+            $("#2").val("")
+            $("#3").val("")
+            $("#4").val("")
+            $("#5").val("")
+            $("#6").val("")
+            $("#7").val("")
+            $("#8").val("")
+            $("#9").val("")
+            $("#10").val("")
+            $("#name").val("")
+            $("#img").val("")
+            
+        $.post("/api/friends", userData, function(data) {
+          $("#result-name").text(data.name);
+          $("#result-img").attr("src", data.photo);
+          $("#results").modal("toggle");
+        });
+      } else {
+          alert("Please input all the fields")
+      }
+    });
+    </script>
+  </body>
+</html>

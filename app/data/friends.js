@@ -1,0 +1,80 @@
+var friendsArr = [{
+    "name":"Ahmed",
+    "photo":"https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Jay-Z",
+    "photo":"http://www.gstatic.com/tv/thumb/persons/199253/199253_v9_bb.jpg",
+    "scores":[
+        2,
+        1,
+        2,
+        5,
+        5,
+        4,
+        1,
+        2,
+        3,
+        1
+      ]
+  },{
+    "name":"Brad Pitt",
+    "photo":"https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_.jpg",
+    "scores":[
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        3,
+        1,
+        5,
+        3
+      ]
+  },{
+    "name":"Katy Perry",
+    "photo":"https://img.cache.vevo.com/thumb/cms/b3d6d66820c255cf6dd7e80f867cc12f201722216535372.jpg",
+    "scores":[
+        4,
+        4,
+        4,
+        5,
+        2,
+        1,
+        5,
+        2,
+        3,
+        3
+      ]
+  },{
+    "name":"Taylor Swift",
+    "photo":"https://media.nbcmiami.com/images/652*367/AP_19037067241931.jpg",
+    "scores":[
+        1,
+        2,
+        1,
+        3,
+        3,
+        3,
+        4,
+        2,
+        4,
+        3
+      ]
+  }
+]
+
+module.exports = friendsArr;
